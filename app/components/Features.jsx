@@ -24,7 +24,7 @@ export default function Features() {
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           Our Solutions
         </h2>
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">

@@ -1,19 +1,17 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { ShoppingBag, Star, ThumbsUp } from 'lucide-react';
+import { ShoppingBag, Star, ThumbsUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Marketplace() {
   const router = useRouter();
 
   return (
-    <section className="py-20 px-4 md:px-6 lg:px-8 relative">
+    <section className="pb-20 pt-10 px-4 md:px-6 lg:px-8 relative">
       <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-[400px] h-[400px] bg-purple-500/20 rounded-full blur-[120px]" />
       <div className="container mx-auto relative z-10">
-        <h2 className="text-3xl font-bold text-center mb-12">
-          AI Marketplace
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-12">AI Marketplace</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="backdrop-blur-sm">
             <h3 className="text-2xl font-semibold mb-4">
@@ -41,9 +39,7 @@ export default function Marketplace() {
             </ul>
           </div>
           <div className="bg-white/5 backdrop-blur-sm p-8 rounded-xl border border-white/10">
-            <h3 className="text-2xl font-semibold mb-6">
-              Featured Plugins
-            </h3>
+            <h3 className="text-2xl font-semibold mb-6">Featured Plugins</h3>
             <ul className="space-y-6">
               <li className="p-4 bg-white/5 rounded-lg border border-white/10">
                 <h4 className="font-semibold text-lg mb-2">
@@ -76,7 +72,7 @@ export default function Marketplace() {
           <Button
             size="lg"
             className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg rounded-full"
-            onClick={() => ""}
+            onClick={() => router.push("https://andai-marketplace.vercel.app/")}
           >
             Explore AI Marketplace
           </Button>
@@ -85,4 +81,3 @@ export default function Marketplace() {
     </section>
   );
 }
-
