@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Star, Monitor, Smartphone, Laptop } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function Hero() {
