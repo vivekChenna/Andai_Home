@@ -65,7 +65,7 @@ export default function Hero() {
           {/* Explore AI Plugins Button */}
           <Button
             onClick={() => {
-              router.push("https://andai-marketplace.vercel.app/latest");
+              router.push("https://app3.serverless.andaihub.com/latest");
             }}
             className="bg-[#6C63FF] hover:bg-[#5850CC] 
                text-white font-medium text-lg 
@@ -78,7 +78,7 @@ export default function Hero() {
           {/* Visit AI Marketplace Button */}
           <Button
             onClick={() => {
-              router.push("https://andai-marketplace.vercel.app/");
+              router.push("https://app3.serverless.andaihub.com/");
             }}
             className="bg-gray-800 hover:bg-gray-700 
                text-white font-medium text-lg 

@@ -52,7 +52,7 @@ export default function Header() {
             </Button> */}
             <Button
               onClick={() => {
-                router.push("https://andai-marketplace.vercel.app/");
+                router.push("https://app3.serverless.andaihub.com/");
               }}
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white border-0"
             >
