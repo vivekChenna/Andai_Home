@@ -72,7 +72,7 @@ export default function Marketplace() {
           <Button
             size="lg"
             className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg rounded-full"
-            onClick={() => router.push("https://app3.serverless.andaihub.com/")}
+            onClick={() => router.push("https://marketplace.dev.andaihub.com")}
           >
             Explore AI Marketplace
           </Button>
